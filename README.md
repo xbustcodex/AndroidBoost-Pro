@@ -67,9 +67,9 @@ pkg install -y bash
 
 ```bash
 cd ~
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/AndroidBoost-Pro/main/androidboost_pro.sh
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/AndroidBoost-Pro/main/androidboost_lite.sh
-chmod +x androidboost_*.sh
+curl -O https://raw.githubusercontent.com/xbustcodex/AndroidBoost-Pro/main/androidBoost-lite.sh
+chmod +x androidBoost-lite.sh
+bash androidBoost-lite.sh
 ```
 
 ### 3. Run (Lite, no root required for some tweaks)
