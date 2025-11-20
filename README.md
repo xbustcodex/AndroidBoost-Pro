@@ -1,6 +1,26 @@
 # AndroidBoost-Pro
 AndroidBoost Pro v1.0  ⚡ All-in-One Android Speed, Battery &amp; Gaming Optimizer  AndroidBoost Pro is a lightweight Android optimization toolkit designed for Termux (root recommended). It safely debloats your phone, increases UI speed, boosts battery life, and includes a Gaming Mode for maximum performance.
 
+. Lite vs Pro Feature Table (You Can Sell This)
+
+Use this table in your GitHub, Telegram, or ads:
+
+Feature	Lite (Free)	Pro (Paid)
+
+Bloatware detection	✔	✔
+Disable apps	✔	✔
+Performance tweaks	✔	✔
+Battery tweaks	✔	✔
+Gaming Mode	❌	✔ Auto-Gaming Mode
+Deep Samsung/Oppo/Xiaomi debloat	❌	✔
+ADB version (PC, no root needed)	❌	✔
+Kernel tweaks	❌	✔
+App freezer (instead of disable)	❌	✔
+Battery calibration	❌	✔
+Scheduler (auto-run at night)	❌	✔
+Lifetime updates	Limited	✔
+
+
 🚀 Features
 
 🔥 Performance Tweaks
