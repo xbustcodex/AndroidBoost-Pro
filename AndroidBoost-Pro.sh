@@ -44,7 +44,6 @@ pause() {
   read -p "Press Enter to continue..." _
 }
 
-# -------- SAFE BLOATWARE LIST (3rd-party only, no core system) --------
 SAFE_BLOAT_PACKAGES=(
   "com.facebook.katana"
   "com.facebook.system"
@@ -64,8 +63,8 @@ SAFE_BLOAT_PACKAGES=(
   "com.udemy.android"
   "com.huawei.appmarket"
   "com.oppo.market"
-  "com.sec.android.app.sbrowser"        # Samsung Internet (optional)
-  "com.samsung.android.game.gamehome"   # Samsung Game Launcher
+  "com.sec.android.app.sbrowser"
+  "com.samsung.android.game.gamehome"
 )
 
 find_installed_bloat() {
@@ -142,12 +141,9 @@ re_enable_packages() {
 apply_ui_tweaks() {
   echo "Applying UI / animation tweaks..."
   if command -v settings >/dev/null 2>&1; then
-    # Faster animations
     settings put global window_animation_scale 0.5
     settings put global transition_animation_scale 0.5
     settings put global animator_duration_scale 0.5
-
-    # Optional: reduce Wi-Fi scan always-on for battery
     settings put global wifi_scan_always_enabled 0
 
     log "Set animation scales to 0.5 and wifi_scan_always_enabled=0"
@@ -265,7 +261,6 @@ menu() {
   done
 }
 
-# -------- MAIN --------
 banner
 check_root
 menu
