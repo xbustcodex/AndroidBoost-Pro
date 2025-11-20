@@ -1,135 +1,113 @@
 # AndroidBoost-Pro
 AndroidBoost Pro v1.0  ⚡ All-in-One Android Speed, Battery &amp; Gaming Optimizer  AndroidBoost Pro is a lightweight Android optimization toolkit designed for Termux (root recommended). It safely debloats your phone, increases UI speed, boosts battery life, and includes a Gaming Mode for maximum performance.
 
-. Lite vs Pro Feature Table (You Can Sell This)
+- Detect & disable safe 3rd-party bloatware
+- Apply battery & performance tweaks
+- Enable ultra-snappy Gaming Mode
+- Fully revert changes if needed
+. 
+## ✨ Features
 
-Use this table in your GitHub, Telegram, or ads:
+### ✅ Core Features
+- Safe bloatware detection from a curated list (Facebook, Netflix, OEM stores, etc.)
+- Disable packages via `pm disable-user --user 0`
+- Log every action to a timestamped log file
+- Keep a list of disabled packages for easy restore
 
-Feature	Lite (Free)	Pro (Paid)
+### 🚀 Performance & Battery
+- Lower animation scales for a snappier UI
+- Optionally disable Wi-Fi scan-always for better standby
+- Toggle "fixed performance mode" (if your device supports `cmd power set-fixed-performance-mode-enabled`)
 
-Bloatware detection	✔	✔
-Disable apps	✔	✔
-Performance tweaks	✔	✔
-Battery tweaks	✔	✔
-Gaming Mode	❌	✔ Auto-Gaming Mode
-Deep Samsung/Oppo/Xiaomi debloat	❌	✔
-ADB version (PC, no root needed)	❌	✔
-Kernel tweaks	❌	✔
-App freezer (instead of disable)	❌	✔
-Battery calibration	❌	✔
-Scheduler (auto-run at night)	❌	✔
-Lifetime updates	Limited	✔
+### 🎮 Gaming Mode
+- Completely disable animations
+- Request max performance mode (where supported)
+- Combine with manual background-app closing for best results
 
-
-🚀 Features
-
-🔥 Performance Tweaks
-
-Reduce UI animation scale
-
-Faster navigation
-
-Smoother app switching
-
-Less background lag
-
-
-🔋 Battery Optimizations
-
-Disable Wi-Fi scan-always
-
-Remove unnecessary background services
-
-Improve standby time
-
-
-🎮 Gaming Mode
-
-Zero animations
-
-Highest UI responsiveness
-
-Reduced stutter
-
-Performance Mode request (if device supports)
-
-
-🧹 Safe Bloatware Removal
-
-Detect installed bloat from verified safe list
-
-Disable packages using pm disable-user
-
-Automatically logs every package
-
-Easy “Undo” menu to restore everything
-
-
-⏪ Revert Mode
-
-One-click reset to Android defaults
-
-Re-enable disabled apps
-
-Restore animation scales
-
-
-📊 Status Dashboard
-
-Check:
-
-Current animation scales
-
-Battery scan settings
-
-What packages were disabled
-
-Full session logs
-
-
+### ⏪ Revert & Status
+- Re-enable all previously disabled apps from a log file
+- Reset animation scales to Android defaults (1.0)
+- Show current settings and what was changed
 
 ---
 
-📦 Installation
+## 🧪 Lite vs Pro
 
-Requirements
+| Feature | Lite (Free) | **Pro (Paid)** |
+|--------|-------------|----------------|
+| Apply UI + battery tweaks | ✔ | ✔ |
+| Basic Gaming Mode | ✔ | ✔ (enhanced) |
+| Show status | ✔ | ✔ |
+| Safe bloatware detection | ❌ | **✔** |
+| Disable bloatware | ❌ | **✔** |
+| Re-enable disabled apps | ❌ | **✔** |
+| Detailed logging | ❌ | **✔** |
+| Curated OEM lists (Samsung/Oppo/Xiaomi) | ❌ | **Planned** |
 
-Termux
+The repository includes **both**:
+- `androidboost_lite.sh`
+- `androidboost_pro.sh`
 
-Root (recommended for full functionality)
+You choose how to distribute them (e.g. Lite public, Pro private/paid).
 
+---
 
-Install
+## 📦 Installation
 
+### Requirements
+- Android device
+- Termux installed
+- Root (Magisk, etc.) for full functionality
+
+### 1. Install Termux dependencies
+
+```bash
 pkg update && pkg upgrade -y
 pkg install -y bash
+```
 
-Download script:
+### 2. Download the script(s)
 
-curl -O https://raw.githubusercontent.com/USERNAME/AndroidBoost-Pro/main/androidboost_pro.sh
-chmod +x androidboost_pro.sh
+```bash
+cd ~
+curl -O https://raw.githubusercontent.com/YOUR_USERNAME/AndroidBoost-Pro/main/androidboost_pro.sh
+curl -O https://raw.githubusercontent.com/YOUR_USERNAME/AndroidBoost-Pro/main/androidboost_lite.sh
+chmod +x androidboost_*.sh
+```
 
-Run:
+### 3. Run (Lite, no root required for some tweaks)
 
+```bash
+bash androidboost_lite.sh
+```
+
+### 4. Run Pro (root recommended)
+
+```bash
 su
 ./androidboost_pro.sh
+```
 
+If you see a "root not detected" warning, either:
+- Run `su` first in Termux, or
+- Accept limited mode (only some tweaks will work)
 
+---
 ---
 
 🛡 Safety Notes
 
-AndroidBoost Pro:
+AndroidBoost Pro is designed to be **conservative**:
 
-Does NOT touch critical system packages
+- It only targets a known list of 3rd-party packages
+- It logs every package it disables
+- It offers a one-shot restore to re-enable everything
+- It does **not**:
+  - Flash anything
+  - Touch system partitions directly
+  - Edit boot images or kernels
 
-Only affects 3rd-party bloatware
-
-Logs every action
-
-Fully reversible
-
-
+Still, use common sense and always test on your own device(s) before using on client phones.
 
 ---
 
