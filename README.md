@@ -1,6 +1,11 @@
 # AndroidBoost-Pro
 AndroidBoost Pro v1.0  ⚡ All-in-One Android Speed, Battery &amp; Gaming Optimizer  AndroidBoost Pro is a lightweight Android optimization toolkit designed for Termux (root recommended). It safely debloats your phone, increases UI speed, boosts battery life, and includes a Gaming Mode for maximum performance.
 
+➡️ **Pro version** (safe bloatware removal, logs, restore system, deep tweaks)  
+is available via DM or purchase link.
+
+---
+
 - Detect & disable safe 3rd-party bloatware
 - Apply battery & performance tweaks
 - Enable ultra-snappy Gaming Mode
@@ -55,6 +60,16 @@ The repository includes :
 - Android device
 - Termux installed
 - Root (Magisk, etc.) for full functionality
+
+## 📥 Install Termux (Required)
+
+Download Termux from the official source (F-Droid):
+
+👉 **https://f-droid.org/en/packages/com.termux/**
+
+⚠️ *Do NOT install Termux from the Play Store — it is outdated and broken.*
+
+---
 
 ### 1. Install Termux dependencies
 
