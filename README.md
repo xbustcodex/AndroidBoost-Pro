@@ -44,12 +44,9 @@ AndroidBoost Pro v1.0  ⚡ All-in-One Android Speed, Battery &amp; Gaming Optimi
 | Detailed logging | ❌ | **✔** |
 | Curated OEM lists (Samsung/Oppo/Xiaomi) | ❌ | **Planned** |
 
-The repository includes **both**:
+The repository includes :
 - `androidboost_lite.sh`
-- `androidboost_pro.sh`
-
-You choose how to distribute them (e.g. Lite public, Pro private/paid).
-
+  
 ---
 
 ## 📦 Installation
@@ -79,13 +76,7 @@ chmod +x androidboost_*.sh
 
 ```bash
 bash androidboost_lite.sh
-```
-
-### 4. Run Pro (root recommended)
-
-```bash
-su
-./androidboost_pro.sh
+ or ./androidboost_lite.sh
 ```
 
 If you see a "root not detected" warning, either:
@@ -130,7 +121,7 @@ ADB PC version (No root required)
 Scheduled Optimization (daily/weekly)
 
 
-Price: $10 one-time
+Price: $15 one-time
 Message me to buy your copy.
 
 AndroidBoost Pro v1.0 - License
