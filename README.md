@@ -139,6 +139,20 @@ Scheduled Optimization (daily/weekly)
 Price: $15 one-time
 Message me to buy your copy.
 
+---
+
+⭐ Support the Project
+
+If you like this tool:
+
+Star ⭐ the repo
+
+Share it
+
+DM for the Pro version
+
+---
+
 AndroidBoost Pro v1.0 - License
 --------------------------------
 
