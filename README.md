@@ -154,3 +154,18 @@ Scheduled Optimization (daily/weekly)
 
 Price: $10 one-time
 Message me to buy your copy.
+
+AndroidBoost Pro v1.0 - License
+--------------------------------
+
+You are allowed to:
+- Use this software for personal or commercial purposes.
+- Modify it for your own use or for services you sell.
+- Bundle it as part of a paid service (e.g., phone optimization).
+
+You are NOT allowed to:
+- Publicly re-upload the full Pro script in a free/open repository.
+- Resell this script verbatim without adding any value (support, customization, etc.).
+
+There is no warranty. Use at your own risk. You are responsible for any changes made on devices using this script.
+
