@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xbustcodex/AndroidBoost-Pro/main/androidboost_banner.png" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-v1.0-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platform-Android-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Works%20In-Termux-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Root-Optional-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-Custom-lightgrey?style=for-the-badge" />
+</p>
 # AndroidBoost-Pro
 AndroidBoost Pro v1.0  ⚡ All-in-One Android Speed, Battery &amp; Gaming Optimizer  AndroidBoost Pro is a lightweight Android optimization toolkit designed for Termux (root recommended). It safely debloats your phone, increases UI speed, boosts battery life, and includes a Gaming Mode for maximum performance.
 
