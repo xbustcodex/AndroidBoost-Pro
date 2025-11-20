@@ -6,7 +6,6 @@ AndroidBoost Pro is a Bash toolkit for rooted Android phones using Termux. Ideal
 
 ### Included in this product
 
-- Pro script: `androidboost_pro.sh`
 - Lite script: `androidboost_lite.sh`
 - Quick install & usage guide
 
